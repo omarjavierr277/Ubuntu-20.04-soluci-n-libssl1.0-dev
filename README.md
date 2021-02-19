@@ -129,9 +129,9 @@ $ sudo apt install redis-server
 $ sudo service redis-server start
 ```
 
-#### El problema
+### El problema
 
 ##### Necesitaba instalar ruby ​​2.3.x en realidad, era 2.3.3, estoy tratando de hacerlo en Ubuntu 20.04, he seguido 
 
 - [esta guía](https://laravel.com/docs/broadcasting).
-#### pero se detiene con este error.
+#### , pero se detiene con este error.
