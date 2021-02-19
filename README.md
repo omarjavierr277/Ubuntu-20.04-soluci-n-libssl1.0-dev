@@ -128,3 +128,7 @@ $ sudo apt install redis-server
 ```bash
 $ sudo service redis-server start
 ```
+
+#### El problema
+
+##### Necesitaba instalar ruby ​​2.3.x en realidad, era 2.3.3, estoy tratando de hacerlo en Ubuntu 20.04, he seguido [https://www.garron.me/en/linux/install-ruby-rbenv-ubuntu-20-04.html](esta guía) , pero se detiene con este error.
