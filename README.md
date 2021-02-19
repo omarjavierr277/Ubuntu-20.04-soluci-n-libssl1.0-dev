@@ -133,8 +133,7 @@ $ sudo service redis-server start
 
 ## El problema Ubuntu 20.04 con libreria libssl1.0-dev
 
-##### Necesitaba instalar ruby ​​2.3.x en realidad, era 2.3.3, estoy tratando de hacerlo en Ubuntu 20.04, he seguido  [esta guía](https://laravel.com/docs/broadcasting).
-#### , pero se detiene con este error.
+##### Necesitaba instalar ruby ​​2.3.x en realidad, era 2.3.3, estoy tratando de hacerlo en Ubuntu 20.04, he seguido  [esta guía](https://laravel.com/docs/broadcasting) , pero se detiene con este error.
 
 
 ```
@@ -146,5 +145,7 @@ ERROR: Ruby install aborted due to missing extensions
 Try running `apt-get install -y libssl-dev` to fetch missing dependencies.
 ```
 
+### La solución
 
+> Edite este archivo `/etc/apt/sources.listy` agregue esta línea al final.
 
