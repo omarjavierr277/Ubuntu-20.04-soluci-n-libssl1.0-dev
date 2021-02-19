@@ -164,3 +164,7 @@ Finalmente,
 ```bash
 $ sudo apt-get install libssl1.0-dev
 ```
+
+#### Link de Referencia
+> [https://www.garron.me/en/linux/install-ruby-2-3-3-ubuntu.html](https://www.garron.me/en/linux/install-ruby-2-3-3-ubuntu.html)
+
