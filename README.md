@@ -147,5 +147,20 @@ Try running `apt-get install -y libssl-dev` to fetch missing dependencies.
 
 ### La solución
 
-> Edite este archivo `/etc/apt/sources.listy` agregue esta línea al final.
+Edite este archivo `/etc/apt/sources.listy` agregue esta línea al final.
 
+```config
+deb http://security.ubuntu.com/ubuntu bionic-security main
+```
+
+Después de esa carrera:
+
+```bash
+$ sudo apt update && apt-cache policy libssl1.0-dev
+```
+
+Finalmente,
+
+```bash
+$ sudo apt-get install libssl1.0-dev
+```
